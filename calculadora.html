@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calcule o quanto seu investimento pode render na LoCar. Experimente nossa calculadora e comprove que estamos entre os melhores investimentos do setor. LoCar - Soluções em Mobilidade.">
+    <title>Calculadora - LoCar</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <link rel="stylesheet" href="scrollbar.css">
+    <link rel="stylesheet" href="bottom.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="wppbtn.css">
+    <link rel="shortcut icon" href="images/icon/favicon.ico" />
+</head>
+<body>
+    <div class="content">
+        <div class="bg"></div>
+            <div class="left positive">
+                <div class="anti negative">
+                    <div class="navbar">
+                        <a href="./"><img class="logo" src="images/logo todo em laranja 2.png" alt="logo locar" /></a>
+                            <div class="navItems">
+                                <button type="button" class="collapsible"><img src="images/menu.png"  alt="menu"/></button>
+                                <ul class="items">
+                                    <li class="i-btn"><button type="button" class="collapsible"><img src="images/menu.png" alt="menu" /></button></li>
+                                    <li><a class="i" href="index.html">HOME</a></li>
+                                    <hr class="mobile"/>
+                                    <li><a class="i" href="investidor.html">INVESTIDOR</a></li>
+                                    <hr class="mobile"/>
+                                    <li><a class="i" href="motorista.html">MOTORISTA</a></li>
+                                    <hr class="mobile"/>
+                                    <li><a class="i" href="contato.html">CONTATO</a></li>
+                                    <hr class="mobile"/>
+                                    <li><a class="i" href="blog.html">BLOG</a></li>
+                                    <hr class="mobile"/>
+                                    <li><a class="i login" href="login.html">LOGIN</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    <div class="main center">
+                        <h2 class="text">Aqui você pode estimar o quanto seu dinheiro rende aplicado em nossa empresa, faça o teste agora mesmo!</h2>
+                        <div class="remendo">
+                            <div class="card">
+                                <h1>Calculadora de Rendimentos</h1>
+                                <hr>
+                                <form class="center">
+                                    <label>
+                                        <h3>Quanto deseja investir?</h3>
+                                    </label>
+                                    <input id="valor" type="number" placeholder="Em reais..." required autofocus/>
+                                    <label class="mt-1em">
+                                        <h3>Por quanto tempo?</h3>
+                                    </label>
+                                    <input id="tempo" type="number" placeholder="Em anos..." required/>
+                                    <button class="calcular" type="submit">Calcular</button>
+                                </form>
+                                <p class="result invisible"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="responsive"></div>
+            <div class="right">
+                <div class="graph invisible">
+                    <div id="chartContainer"></div>
+                    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                </div>
+            </div>
+    </div>
+    <div class="wppbtn"> <a href="https://wa.me/5516997688773" target="blank"><img alt="WhatsApp" src="images/whats.png" width="50px" /></a> </div>
+    <nav class="bottombar"> 
+        <div class="flexbot">
+            <div class="p1">
+                <a class="bottombarlogo" href="./"><img src="images/logo todo em laranja 2.png" alt="logo locar" width="150px" /></a>
+                <ul class="bottommenu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a id="fade" href="investidor.html">Investidor</a></li>
+                  <li><a id="fade" href="motorista.html">Motorista</a></li>
+                  <li><a id="fade" href="contato.html">Contato</a></li>
+                  <li><a id="fade" href="blog.html">Blog</a></li>
+                  <li><a id="fade" class="login" href="login.html">Login</a></li>
+                </ul>
+              </div>
+              <div class="p2">
+                <ul class="bottommenu">
+                  <li>Telefone: <a href="tel:+5516997688773">(16) 99768-8773</a></li>
+                  <li>E-mail: <a href="mailto:contato@locar.me">contato@locar.me</a></li>
+                </ul>
+              </div>
+              <div class="p3">
+                <a href="https://www.linkedin.com/company/uspempreende/?originalSubdomain=br"><img src="images/neu.png" alt="logo NEU" width="55px"/></a>
+              </div>
+        </div>
+        <div class="direitos">
+            <p>LoCar ® | Todos os direitos reservados</p>
+        </div>
+      </nav>
+</body>
+<script src="calculadora.js" type="text/javascript"></script>
+<script src="menu.js" type="text/javascript"></script>
+</html>

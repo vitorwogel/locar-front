@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT's - LoCar</title>
+    <link rel="stylesheet" href="../scrollbar.css">
+    <link rel="stylesheet" href="token.css">
+    <link rel="stylesheet" href="../css/circle.css">
+    <link rel="shortcut icon" href="../images/icon/favicon.ico" />
+</head>
+<body>
+    <section class="top">
+        <div class="menu">
+            <nav>
+                
+                <ul>
+                    <a href="./"><img class="logo" src="../images/logo todo em laranja 2.png" width="200px" alt="Logo LoCar" /></a>
+                    <li>
+                        <a href="">NFT'S</a>
+                    </li>
+                    <li>
+                        <a href="como-funciona.html">Como Funciona?</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">F.A.Q.</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="configuracoes.html" class="icon"><img src="../images/configuracao.png" alt="Rede" height="24px" /></a></li>
+                    <li><a href="rede.html" class="icon"><img src="../images/rede.png" alt="Rede" height="24px" /></a></li>
+                    <li><a class="orange" href="usuario.html">Conectar Carteira</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr class="submenu" />
+    </section>
+    <section class="middle">
+        <div class="marketplace">
+            <h1>Marketplace</h1>
+            <div class="card-body card-body-nft">
+                <div class="img-geral">
+                    <div class="img-container">
+                        <a id="seta-esquerda"><img src="../images/seta-esquerda.png" alt="Seta para esquerda" width="100px" /></a>
+                        <div class="img-wrapper">
+                            <img id="carimg" src="../images/carros/celta.jpeg" alt="Celta - LoCar" />
+                        </div>
+                        <a id="seta-direita"><img src="../images/seta-direita.png" alt="Seta para esquerda" width="100px" /></a>
+                    </div>
+                    <h4 id="nome-do-carro">
+                        CELTA
+                    </h4>
+                </div>
+                <div class="comprar-container">
+                    <h3>Disponibilidade</h3>
+                    <div class="col-sm-6 col-md-4 circle">
+                        <div class="inner-content text-center">
+    
+                            <div class="c100 p100 big center green">
+                                <span>100%</span>
+                                <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <span class="disponibilidade"></span>
+                    <h3>Invista a partir de</h3>
+                    <div class="invista">
+                        <p>R$ 40,00</p>
+                    </div>
+                    <h3>Retorno de até</h3>
+                    <div class="invista">
+                        <p>16% a.a.</p>
+                    </div>
+                    <a id="myBtn" class="comprar" href="#">COMPRAR</a>
+                </div>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Resumo da Compra</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="resumo">
+                        <div class="inner-card">
+                            <div class="custo">
+                                <p>Percentual</p>
+                                <input type="number" min="1" max="100" placeholder="%" />
+                            </div>
+                            <div class="custo">
+                                <p>Custo</p>
+                                <div class="options">
+                                    <p>4000 BRL</p>
+                                    <input type="radio" id="btc" name="moeda" value="0.066 BTC">
+                                    <label for="btc">0.066 BTC</label><br>
+                                    <input type="radio" id="eth" name="moeda" value="1.08 ETH">
+                                    <label for="eth">1.08 ETH</label><br>
+                                    <input type="radio" id="bnb" name="moeda" value="6.27 BNB">
+                                    <label for="bnb">6.27 BNB</label>
+                                </div>
+                            </div>
+                            <div class="custo">
+                                <p>Retorno Mensal</p>
+                                <div class="options">
+                                    <input type="radio" id="fixo" name="rendimento" value="Fixo em 13% A.A.">
+                                    <label for="fixo">Fixo em 13% A.A.</label><br>
+                                    <input type="radio" id="variavel" name="rendimento" value="Variável < 16% A.A.">
+                                    <label for="variavel">Variável < 16% A.A.</label><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagar">
+                        <div class="imi">
+                            <img id="inner-modal-image" src="../images/carros/celta.jpeg" alt="Celta - LoCar" />
+                            <h5 id="inner-modal-text">CELTA</h5>
+                        </div>
+                        <p>Retorno Mensal</p>
+                        <div class="retorno">
+                            <div>
+                                R$ 520,00
+                            </div>
+                        </div>
+                        <a class="comprar" href="#">COMPRAR</a>
+                    </div> 
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="bottom">
+        <div class="menu-bottom">
+            <nav>
+                <ul>
+                    <a href="./"><img class="logo" src="../images/icon/logo-branca.png" width="100px" alt="Logo Branca LoCar" /></a>
+                    <li>
+                        <a href="">NFT'S</a>
+                    </li>
+                    <li>
+                        <a href="como-funciona.html">Como Funciona?</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">F.A.Q.</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="configuracoes.html" class="icon"><img src="../images/configuracao.png" alt="Rede" height="24px" /></a></li>
+                    <li><a href="rede.html" class="icon"><img src="../images/rede.png" alt="Rede" height="24px" /></a></li>
+                    <li><a class="orange" href="usuario.html">Conectar Carteira</a></li>
+                </ul>
+            </nav>
+            <p class="disclaimer">Copyright 2022 ® <a href="../spa/index.html" target="_blank">LoCar</a></p>
+        </div>
+    </section>
+</body>
+<script src="../js/token.js" type="text/javascript"></script>
+</html>

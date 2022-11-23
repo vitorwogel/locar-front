@@ -1,0 +1,720 @@
+.bgM{
+    background-image: url("images/oculos.jpg");
+    z-index: -1;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+.logo{
+    width: 300px;
+    margin: 1em 7em;
+}
+
+.bgI{
+    background-image: url("images/investidor.jpg");
+    z-index: -1;
+    margin: 0;
+}
+/*
+.triangulo {
+    width:0; 
+    height:0;
+    border-top: 360px solid transparent;
+    border-bottom: 360px solid transparent;
+    border-left: 360px solid #CFCDCD;
+    transform: rotate(0.125turn);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -240px;
+    margin-right: -60px;
+}
+*/
+.text{
+    margin-top: 25vh;
+    font-size: 64px;
+    font-family: 'Segoe';
+    color: white;
+    max-width: 70vw;
+    font-weight: 600;
+    cursor: default;
+    margin-bottom: 0;
+}
+
+.text2{
+    font-size: 64px;
+    font-family: 'Segoe';
+    color: white;
+    font-weight: 600;
+    max-width: 70vw;
+    cursor: default;
+    margin:0;
+}
+
+#hr1{
+    float: right;
+    margin: 0 2em;
+    border: 2px solid #EA5F21;
+    width: 45%;
+}
+#hr2{
+    float: left;
+    margin: 0 1em;
+    border: 2px solid #EA5F21;
+    width: 45%;
+}
+
+.jc{
+    justify-content: space-between;
+}
+.flexbox{
+    display: flex;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.wrap1920{
+    height: 100vh;
+    background:#cfcdcd;
+    overflow: hidden;
+}
+.wrap{
+    height: 100vh;
+    overflow: hidden;
+}
+.torta{
+    height: 50vh;
+    width: 80vw;
+    float: right;
+    position: relative;
+    top: 32vh;
+    background: #cfcdcd;
+    transform: skewY(-7deg);
+}
+.box1{
+    margin-top: 2em;
+    margin-left: 20em;
+    margin-right: 5em;
+    width: 50%;
+}
+.box2{
+    margin-top: 2em;
+    margin-right: 20em;
+    margin-left: 5em;
+    width: 50%;
+}
+.boxCenter{
+    font-size: 32px;
+    font-family: 'Segoe';
+    color: #575454;
+}
+.myList{
+    list-style: none;
+    font-family: 'Segoe';
+    font-size: 20px;
+    color: #575454;
+    text-align: left;
+}
+
+.myList li{
+    margin-bottom: 20px;
+}
+
+.divisor{
+    border: 1px solid #575454;
+    max-height: 25vh;
+    margin-top: 7em;
+}
+
+.imgLegend{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Segoe';
+    color: #575454;
+    max-width: 120px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-i{
+    background: #EA5F21;
+    color: white;
+    font-family: 'Segoe';
+    font-size: 20px;
+    border: 2px solid #EA5F21;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10vh;
+    padding: 10px;
+}
+
+.btn-i:hover{
+    background: #c95220;
+    transition: 0.2s ease;
+}
+
+.listDivider{
+    border: 1px solid #EA5F21;
+    width: 50%;
+    margin-left: 0;
+    margin-top: -0.5em;
+}
+
+.contato{
+    font-size: 32px;
+    font-family: 'Segoe';
+    color: #575454;
+    margin-top: 10vh;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+.aContato{
+    color: #EA5F21;
+}
+
+.contatoDivider{
+    border: 1px solid #EA5F21;
+    width: 30%;
+}
+
+.contato p{
+    margin:0;
+}
+
+.innerSlogan{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 22vh 0 0 0 !important;
+}
+
+.t{
+    margin: 0;
+    font-size: 64px;
+    font-family: 'Segoe';
+    font-weight: 600;
+    max-width: 60vw;
+    color: white;
+    cursor: default;
+}
+
+.under5{
+    border: 2px solid #EA5F21;
+    margin: 0;
+    width: 100%;
+}
+
+.finalizacaoR{
+    background: #cfcdcd;
+    height: 490px;
+    width: 960px;
+    float: left;
+    transform: skewY(30deg);
+    margin-top: -15vh;
+    overflow: hidden;
+}
+.anel{
+    position: relative;
+    top: -277.13px;
+    transform: skewY(-30deg);
+}
+
+.finalizacaoM{
+    background: black;
+    margin-top: 1em;
+    height: 755px;
+    width: 960px;
+    float: left;
+    margin-top: -9vh;
+    transform: skewY(30deg);
+    overflow: hidden;
+}
+
+.bmw{
+    position: relative;
+    top:-277.13px;
+    transform: skewY(-30deg);
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 5em;
+}
+
+#contato div{
+    display: flex;
+    margin-top: 0.5em;
+}
+
+#contato label{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#contato input{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    height: 20px;
+}
+
+#contatoMotorista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+#contatoMotorista div{
+    display: flex;
+    margin-top: 0.5em;
+}
+
+#contatoMotorista label{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#contatoMotorista input{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    height: 20px;
+}
+
+.sub-btn{
+    width: 30%;
+    color: #545454;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    background: #cfcdcd;
+    margin-top: 50px;
+}
+
+.sub-btn:hover{
+    transition: 0.2s ease;
+    background: #E5E5E5;
+}
+
+.m-top-15{
+    margin-top: 15vh;
+}
+
+.m-top-1{
+    margin-top: 1em;
+}
+
+.navbar{
+    float: none !important;
+}
+
+span{
+    margin: 0 15px;
+    border-bottom: solid 5px #ea5f21;
+}
+.text2 span{
+    margin:0;
+}
+
+@media screen and (max-width:1366px) {
+    .wrap1920{
+        height: 110vh;
+    }
+    .logo{
+        width: 200px;
+    }
+    .text{
+        font-size: 48px;
+        margin-top: 20vh;
+    }
+    .text2{
+        font-size: 48px;
+    }
+    .torta{
+        top: 32vh;
+    }
+    .box1{
+        margin-top: 2em;
+        margin-left: 10em;
+        margin-right: 5em;
+        width: 50%;
+    }
+    .box2{
+        margin-top: 2em;
+        margin-left: 5em;
+        margin-right: 10em;
+        width: 50%;
+    }
+    .contato{
+        margin-top: 5vh;
+        font-size: 28px;
+    }
+    .t{
+        font-size: 48px;
+    }
+    .innerSlogan{
+        margin-top: 15vh !important;
+    }
+    .motorista{
+        top: 26vh !important;
+    }
+    .bgM{
+        background-image: url("images/oculos-1366.jpg");
+    }
+    .bgI{
+        background-image: url("images/investidor-1366.jpg");
+    }
+    .btn-i{
+        margin-top: 5vh;
+        padding: 5px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .sub-btn{
+        width: 25%;
+        height: 32px;
+        margin-top: 20px;
+    }
+    #contato{
+        margin-top: 0.5em;
+    }
+    .m-top-1{
+        margin: 1em;
+    }
+    .finalizacaoR{
+        width: 683px;
+        height: 390px;
+        margin-top: -4vh;
+    }
+    .finalizacaoM{
+        width: 683px;
+        height: 537px;
+    }
+    #contato{
+        margin-left: 1em;
+    }
+    .myList li{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .torta{
+        top: 42vh;
+    }
+    .finalizacaoR{
+        margin-top: 5vh;
+    }
+    .btn-i{
+        margin-top: 15vh;
+    }
+    .sub-btn{
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo{
+        margin: 1em 4em;
+    }
+    .items{
+        margin-left: 3em;
+    }
+    .torta{
+        top: 36vh;
+    }
+    .text, .text2{
+        font-size: 42px;
+    }
+    .boxCenter{
+        font-size: 28px;
+    }
+    .myList{
+        font-size: 18px;
+    }
+    .box1{
+        margin-left: 5em;
+    }
+    .box2{
+        margin-right: 5em;
+    }
+    .btn-i{
+        margin-top: 5vh;
+    }
+    .contato p{
+        font-size: 24px;
+    }
+    .sub-btn{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .finalizacaoR{
+        margin-top: -4vh;
+    }
+    /*  MOTORISTA   */
+    .t{
+        font-size: 42px;
+    }
+    .motorista{
+        top: 30vh !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .t{
+        max-width: 90vw;
+    }
+    .bgM{
+        background-image: url("images/oculos-768.jpg");
+    }
+    
+    .bgI{
+        background-image: url("images/investidor-768.jpg");
+    }
+
+    .innerSlogan{
+        margin:0 !important;
+    }
+    .logo{
+        width: 250px;
+        margin: 1em 1em;
+    }
+    .slogan{
+        margin-top: 10vh;
+    }
+    .motorista{
+        top:30vh !important;
+    }
+    .wrap{
+        height: 78vh;
+    }
+    .torta{
+        transform: skewY(-15deg);
+    }
+    .jc{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+    }
+    .box1{
+        text-align: center;
+        width: 70%;
+        margin: 0;
+    }
+    h3{
+        margin-block-end: 0;
+   }
+   .divisor{
+       margin-top: 1em;
+       width: 80vw;
+   }
+   .box2{
+       margin:0;
+   }
+   .contato{
+       margin-top: 2vh;
+   }
+   .wrap1920{
+       height: 110vh;
+   }
+   .finalizacaoM{
+       margin-top: 11vh;
+       width: 384px;
+       height: 301px;
+   }
+   .bmw{
+       top: -120.5px;
+   }
+   /*   INVESTIDOR  */
+   .text{
+       margin-top: 5vh;
+       max-width: 100vw;
+   }
+   .text2{
+       max-width: 100vw;
+   }
+   .finalizacaoR{
+       margin-top: 10vh;
+   }
+   .btn-i{
+       margin-top: 3vh;
+       margin-bottom: 2vh;
+   }
+   .form{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .sub-btn{
+       margin-top: 2vh;
+   }
+}
+
+@media screen and (max-width: 480px) {
+
+    .bottombar{
+        margin-top: -10vh;
+    }
+
+    .wrap .torta-i{
+        top: 15vh !important;
+    }
+
+    .finalizacaoR, .finalizacaoM{
+        display: none !important;
+    }
+
+    .bgM{
+        background-image: url("images/oculos-480.jpg");
+    }
+    
+    .bgI{
+        background-image: url("images/investidor-480.jpg");
+    }
+
+    .finalizacaoM{
+        margin-top: 20vh;
+        width: 100vw;
+        height: 188px;
+    }
+    .bmw{
+        top: -110px;
+    }
+
+    .wrap{
+        height: 70vh;
+    }
+
+    .t, .text, .text2{
+        font-size: 28px;
+    }
+    .text, .text2{
+        max-width: 90vw;
+    }
+    .torta{
+        top: 20vh !important;
+    }
+    .finalizacaoR{
+        margin-top: 20vh;
+    }
+    .under5{
+        width: 90%;
+        border: 1px solid #EA5F21;
+    }
+    .innerSlogan{
+        align-items: center;
+        text-align: center;
+    }
+    .slogan{
+        margin-top: 10vh;
+    }
+    .box1{
+        width: 90%;
+    }
+    .box2{
+        width: 90%;
+    }
+    .wrap1920{
+        height: 150vh;
+    }
+    .sub-btn{
+        width: 50%;
+    }
+    .divisor{
+        margin-bottom: 1em;
+    }
+    .logo{
+        width: 200px;
+    }
+    .torta{
+        width: 100vw;
+        height: 30vh;
+    }
+    .images{
+        flex-wrap: wrap;
+    }
+
+    .navbar{
+        float: none !important;
+    }
+
+    @media screen and (min-height: 800px) {
+        .wrap1920{
+            height: 172vh;
+        }
+    }
+
+    @media screen and (max-height: 768px) {
+        .motorista{
+            top: 20vh !important;
+        }
+        .wrap1920{
+            height: 165vh;
+        }
+        .torta{
+            top:15vh;
+        }
+        .text, .text2{
+            max-width: 80vw;
+        }
+    }
+
+    @media screen and (max-height: 670px) {
+        .wrap{
+            height: 75vh;
+        }
+        .wrap1920{
+            height: 200vh;
+        }
+        .torta{
+            top: 10vh;
+        }
+        .finalizacaoR{
+            margin-top: 25vh;
+        }
+    }
+
+    @media screen and (max-height: 640px) {
+        .motorista{
+            top: 10vh !important;
+        }
+        .slogan{
+            margin-top: 10vh;
+            margin-bottom: 5vh;
+        }
+        .wrap1920{height: 210vh;} 
+    }
+
+    @media screen and (max-height: 600px) {
+        .wrap{
+            height: 85vh;
+        }
+        .wrap1920{
+            height: 230vh;
+        }
+    }
+}

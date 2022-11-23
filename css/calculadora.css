@@ -1,0 +1,329 @@
+body{
+    margin: 0;
+    background: #cfcdcd;
+}
+
+.navItems{
+    margin-left: 15vw;
+}
+
+.left{
+    background: #cfcdcd;
+    width: 40vw;
+    height: 100vh;
+    box-shadow: 10px 0 rgba(0,0,0,0.1);
+}
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.result{
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe';    
+}
+
+.canvasjs-chart-credit{
+    display: none;
+}
+
+.result:hover{
+    font-size: 24px;
+    transition: 0.2s ease;
+    cursor: default;
+}
+
+.logo{
+    width: 300px;
+    margin: 3vh 0;
+}
+
+.text{
+    font-family: 'Segoe';
+    font-size: 32px;
+    color: #575454;
+    max-width: 32vw;
+    float: right;
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0em;
+}
+
+.card{
+    color: white;
+    background: #333333;
+    width: 500px;
+    height: 500px;
+    border-radius: 100px;
+    margin: 1em 2em;
+    float: right;
+    box-shadow: 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+    font-family: 'Segoe';
+    margin-top: 1em;
+    font-weight: 300;
+}
+
+hr{
+    border: 1px solid #ea5f21;
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 50%;
+    margin: 1em;
+    outline: none;
+    border: none;
+    height: 24px;
+    border-radius: 25px;
+}
+
+label{
+    font-family: 'Segoe';
+    font-size: 20px;
+}
+
+.calcular{
+    cursor: pointer;
+    font-family: 'Segoe';
+    color: white;
+    background: #ea5f21;
+    border: none;
+    border-radius: 25px;
+    font-size: 28px;
+    padding: 5px;
+    width: 50%;
+    margin-top: 1em;
+}
+
+.content{
+    display: flex;
+    overflow: hidden;
+}
+
+.bg{
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 80%;
+    background-image: url("../images/estrelas-1920.jpg");
+    z-index: -1;
+}
+.graph{
+    position: absolute;
+    right: 0;
+    margin-top: 22em;
+    height: 45vh;
+    border-radius: 25px;
+    background: rgba(207, 205, 205, 0.2);
+}
+
+.positive {
+    -webkit-transform: skew(20deg); /* Chrome, Opera */
+        -ms-transform: skew(20deg); /* IE */
+            transform: skew(20deg); /* Padrão */
+}
+
+.negative {
+    -webkit-transform: skew(-20deg); /* Chrome, Opera */
+        -ms-transform: skew(-20deg); /* IE */
+            transform: skew(-20deg); /* Padrão */
+}
+
+.anti{
+    margin-left: 10vw;
+}
+
+.mt-1em{
+    margin-top: 1em;
+}
+
+#chartContainer{
+    width: 52vw;
+}
+
+@font-face {
+    font-family: Segoe;
+    src: url("../fonts/segoe-ui.ttf");
+}
+
+@media screen and (max-width:1366px) {
+    .logo{
+        width: 200px;
+    }
+    .text{
+        margin:0;
+        font-size: 28px;
+        max-width: 28vw;
+    }
+    .card{
+        width: 400px;
+        height: 320px;
+        margin: 0;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    .card h1{
+        margin: 0.5em;
+        font-size: 24px;
+    }
+    .center{
+        margin: 0.5em 0;
+    }
+    .mt-1em{
+        margin: 0;
+    }
+    .calcular{
+        font-size: 20px;
+        margin: 0.5em;
+        margin-bottom: 0;
+    }
+    .graph{
+        margin-top: 28vh;
+    }
+    .result{
+        margin:0;
+        font-size: 18px;
+    }
+    .result:hover{
+        font-size: 20px;
+    }
+    .bg{
+        background-image: url("../images/estrelas-1366.jpg");
+    }
+    .graph{
+        margin-top: 8em;
+        height: 65vh;
+        border-radius: 25px;
+        background: rgba(207, 205, 205, 0.2);
+    }
+    .i{
+        font-size: 20px;
+        margin: 0 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navItems{
+        display: none;
+    }
+    .bg{
+        background-image: url('../images/estrelas-768.jpg');
+        position: absolute;
+        top:0;
+    }
+    .positive, .negative{
+        transform: skewY(0deg);
+    }
+    .content{
+        flex-direction: column;
+    }
+    .left{
+        height: 70vh;
+        width: 100%;
+        background: transparent;
+        box-shadow: none;
+    }
+    .bg{
+        height: 80vh;
+        width: 100%;
+    }
+    .text{
+        float: none;
+        max-width: 100vw;
+        color: white;
+    }
+    .anti{
+        margin: 0;
+    }
+    .card{
+        float: none;
+        margin: 0;
+    }
+    .graph{
+        margin:0;
+        float: right;
+        position: relative;
+        background: none;
+    }
+    .logo{
+        margin: 3vh 2em;
+    }
+    .main{
+        margin-bottom: 2em;
+        margin-top: 5em;
+    }
+    .responsive{
+        height: 20vh;
+        width: 100%;
+        background: #cfcdcd;
+        transform: skewY(-15deg);
+    }
+    .canvasjs-chart-credit{
+        display: none;
+    }
+    #chartContainer{
+        height: 450px;
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text{
+        max-width: 100vw;
+    }
+    .card{
+        width: 100vw;
+    }
+    .left{
+        height: 90vh;
+    }
+    .bg{
+        background-image: url("../images/estrelas-480.jpg");
+        height: 100vh;
+    }
+    .responsive{
+        z-index: -1;
+    }
+    .graph{
+        margin-top: -10vh;
+    }
+    #chartContainer{
+        height: 300px;
+        width: 100vw;
+    }
+    .logo{
+        width: 150px;
+        margin: 1em 1em;
+    }
+    @media screen and (max-height: 670px) {
+        .graph{
+            margin-top: 5vh;
+        }
+    }
+    @media screen and (max-height: 640px) {
+        .graph{
+            margin-top: 10vh;
+        }
+    }
+    @media screen and (max-height: 600px) {
+        .graph{
+            margin-top: 25vh;
+        }
+    }
+}

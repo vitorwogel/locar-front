@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login - LoCar</title>
+        <link rel="stylesheet" href="login.css"/>
+        <link rel="stylesheet" href="bottom.css"/>
+        <link rel="stylesheet" href="scrollbar.css"/>
+        <link rel="stylesheet" href="wppbtn.css">
+        <link rel="shortcut icon" href="images/icon/favicon.ico" />
+    </head>
+    <body>
+        <section class="principal">
+            <div class="superior">
+                <div class="logo">
+                    <a href="./"><img class="imageLogo" src="./images/logo todo em laranja 2.png" /></a>
+                </div>
+                <div class="voltar">
+                    <a class="a" href="index.html">Voltar ao Site <img class="imgVoltar" src="images/seta.png" /></a>
+                </div>
+            </div>
+            <div class="mid">
+                <div class="card">
+                    <div class="texto">
+                        <p style="font-size: 28px;">Login na LoCar</p>
+                        <hr>
+                        <p style="font-size: 24px;">Este ambiente é seguro</p>
+                    </div>
+                    <div class="form">
+                        <fieldset>
+                            <form id="fm">
+                                <label>
+                                    Usuário
+                                </label>
+                                <input id="user" type="text" placeholder="Digite seu user..." autofocus required />
+                                <label>
+                                    Senha
+                                </label>
+                                <input id="password" type="password" placeholder="Digite sua senha..." required />
+                            </form>
+                        </fieldset>
+                        <!-- LOGIN INCORRETO -->
+                        <div class="incorreto">
+                            <p id="nomeUsuario">*Este nome de usuário não existe!</p>
+                            <p id="senhaUsuario">*A senha está incorreta!</p>
+                        </div>
+                        <div class="divEnviar">
+                            <a class="a" href="./login">Esqueceu a senha?</a>
+                            <a href="conta"><button class="enviar" type="submit" form="fm">Entrar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="triangulo"></div>
+            </div>
+        </section>
+        <div class="wppbtn"> <a href="https://wa.me/5516997688773" target="blank"><img alt="WhatsApp" src="images/whats.png" width="50px" /></a> </div>
+        <nav class="bottombar"> 
+            <div class="flexbot">
+                <div class="p1">
+                    <a class="bottombarlogo" href="./"><img src="images/logo todo em laranja 2.png" width="150px" /></a>
+                    <ul class="bottommenu">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a id="fade" href="investidor.html">Investidor</a></li>
+                      <li><a id="fade" href="motorista.html">Motorista</a></li>
+                      <li><a id="fade" href="contato.html">Contato</a></li>
+                      <li><a id="fade" href="blog.html">Blog</a></li>
+                      <li><a id="fade" href="login.html">Login</a></li>
+                    </ul>
+                  </div>
+                  <div class="p2">
+                    <ul class="bottommenu">
+                      <li>Telefone: <a href="tel:+5516997688773">(16) 99768-8773</a></li>
+                      <li>E-mail: <a href="mailto:contato@locar.me">contato@locar.me</a></li>
+                    </ul>
+                  </div>
+                  <div class="p3">
+                    <a href="https://www.linkedin.com/company/uspempreende/?originalSubdomain=br"><img src="images/neu.png" width="55px"/></a>
+                  </div>
+            </div>
+            <div class="direitos">
+                <p>LoCar ® | Todos os direitos reservados</p>
+            </div>
+          </nav>
+    </body>
+    <script type="text/javascript" src="login.js"></script>
+</html>

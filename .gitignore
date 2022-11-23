@@ -1,0 +1,6 @@
+.well-known
+.htaccess
+robots.txt
+node_modules
+package-lock.json
+sitemap.xml

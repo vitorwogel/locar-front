@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+}
+
+.bottommenu{
+    list-style: none;
+    display: flex;
+}
+
+.bottommenu li{
+    margin: 0 1em;
+}
+
+.bottombar{
+    display: flex;
+    flex-direction: column;
+    background: #e5e5e5;
+    font-family: 'Segoe';
+    color: #545454;
+    overflow: hidden;
+}
+
+.bottombar a{
+    text-decoration: none;
+    color: #545454;
+}
+
+.p2 a{
+    color: #ea5f21;
+}
+
+.p1{
+    display: flex;
+}
+
+#fade{
+    color: rgba(84, 84, 84, 0.5);
+}
+
+#fade:hover{
+    color: #545454;
+}
+
+.hiddenButton{
+    display: none;
+}
+
+.hidden-bm{
+    display: none;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+.flexbot{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    padding-bottom: 0;
+}
+
+.direitos{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    .show{
+        display: block !important;
+    }
+    .bottommenu{
+        display: none;
+    }
+    .bottommenu li{
+        margin-bottom: 10px;
+    }
+    .hiddenButton{
+        display: block;
+    }
+    .bottombarlogo, .hiddenButton, .p3 {
+        margin-block-start: 1em;
+    }
+    .menu-btn{
+        border: none;
+        border-radius: 5px;
+        background: #e5e5e5;
+    }
+    .menu-btn:hover{
+        background: rgba(84, 84, 84, 0.3);
+    }
+    .menu-btn:hover .hidden-bm{
+        display: block;
+    }
+}
+
+@font-face {
+    font-family: Segoe;
+    src: url("fonts/segoe-ui.ttf");
+}

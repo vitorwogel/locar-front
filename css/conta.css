@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    background: #CFCDCD;
+    font-family: 'Segoe';
+    color: #575454;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 5vw;
+}
+
+.navSup{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome{
+    font-size: 40px;
+}
+
+.carteira{
+    font-size: 32px;
+    margin-top: 2vh;
+    margin-bottom: 12vh;
+
+}
+
+.news{
+    margin-top: 10vh;
+    border:none;
+    border-radius: 25px;
+    color: #ea5f21;
+    background: transparent;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ea5f21;
+    margin-bottom: 2em;
+    cursor: pointer;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.container-a{
+    display: flex;
+    justify-content: center;
+}
+
+.news:hover{
+    transition: 0.2s ease;
+    background: #ea5f21;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+.subtitle{
+    font-size: 32px;
+}
+
+.voltar{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+p{
+    margin: 0;
+}
+
+.a{
+    text-decoration: none;
+    color: #575454;
+}
+
+.card{
+    width: 30vw;
+    height: 60vh;
+    background: white;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    border-radius: 25px;
+    border: 1px solid #ea5f21;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: none;
+}
+
+.bottom{
+    background: #E9E8E8;
+    border: 2px solid #575454;
+    font-size: 28px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1vh rgba(0,0,0,0.1);
+}
+
+.bottext{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 0 1vw;
+}
+
+.page{
+    height: 100vh;
+}
+
+.clearfix{
+    margin-top: 3em;
+}
+
+.content{
+    display: flex;
+}
+
+.graph{
+    width: 60vw;
+    background: transparent;
+}
+
+.right{
+    margin-top: 5em;
+}
+
+.green{
+    color: #4DB53C;
+}
+
+.topGraph{
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+    margin-bottom: 1em;
+    padding-right: 10vw;
+    padding-left: 2vw;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sp{
+    font-size: 64px;
+    color:#4DB53C;
+    font-family: 'Segoe';
+}
+
+hr{
+    margin: 0;
+    border: 1px solid #575454;
+}
+
+.hr{
+    border: 1px solid #ea5f21;
+}
+
+.voltar img{
+    width: 24px;
+}
+
+.a:hover{
+    color: #ea5f21;
+    transition: .1s ease;
+}
+
+.canvasjs-chart-credit{
+    display: none;
+}
+
+#chartContainer{
+    height: 400px; width: 100%;
+}
+
+@font-face {
+    font-family: Segoe;
+    src: url("../fonts/segoe-ui.ttf");
+}
+
+@media screen and (max-width:1366px){
+    #chartContainer{
+        height: 350px; width: 100%;
+    }
+    .welcome{
+        font-size: 32px;
+    }
+    .subtitle{
+        font-size: 28px;
+    }
+    .voltar{
+        font-size: 20px;
+    }
+    .carteira{
+        font-size: 28px;
+        margin-top: 1em;
+    }
+    .card{
+        margin-top: 4vh;
+        margin-left: 8vw;
+    }
+    .sp{
+        font-size: 56px;
+    }
+    .bottom{
+        font-size: 22px;
+    }
+    .bottext{
+        height: 50px;
+    }
+    .right{
+        margin-top: 4vh;
+    }
+    .topGraph{
+        font-size: 24px;
+    }
+    .nav{
+        padding: 2vh 5vw;
+    }
+    .news{
+        margin-bottom: 2em;
+    }
+    .page{
+        margin-bottom: 2em;
+    }
+    .topGraph{
+        padding-right: 2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subtitle{
+        max-width: 50vw;
+        font-size: 20px;
+    }
+    .welcome{
+        font-size: 24px;
+    }
+    .voltar{
+        font-size: 18px;
+    }
+    .voltar img{
+        width: 20px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .card{
+        width: auto;
+        height: auto;
+        margin: 2vh 8vw; 
+    }
+    .carteira{
+        margin-bottom: 2em;
+    }
+    .sp{
+        margin-bottom: 1em;
+    }
+    .news{
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .bottom{
+        font-size: 20px;
+    }
+    .topGraph{
+        padding: 0;
+        font-size: 20px;
+    }
+    .graph{
+        width: 100vw;
+    }
+    .page{
+        height: 120vh;
+    }
+    /*
+    canvas{
+        position: relative !important;
+        height: auto !important;
+        width: 100% !important;
+    }
+    */
+}
+
+@media screen and (max-width:480px) {
+    .subtitle{
+        max-width: 100vw;
+        font-size: 18px;
+    }
+    .welcome{
+        max-width: 50vw;
+    }
+    .voltar{
+        max-height: 60px;
+        font-size: 16px;
+    }
+    .voltar img{
+        width: 18px;
+    }
+    .carteira{
+        font-size: 20px;
+        margin-bottom: 3em;
+    }
+    .card{
+        margin: 1vh 4vw;
+    }
+    .sp{
+        font-size: 36px;
+        margin-bottom: 2em;
+    }
+    .news{
+        font-size: 16px;
+    }
+    .bottom{
+        font-size: 18px;
+    }
+    .topGraph{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .rendimento, .rentabilidade, .relativa{
+        margin: 1em 0;
+    }
+    .right{
+        margin:0;
+    }
+    .hr{
+        width: 100vw;
+        max-width: 90%;
+    }
+    #chartContainer{
+        height: 300px;
+        width: 100%;
+    }
+}

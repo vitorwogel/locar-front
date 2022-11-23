@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Área do Investidor - LoCar</title>
+        <link rel="stylesheet" href="conta.css"/>
+        <link rel="stylesheet" href="circle/circle.css"/>
+        <link rel="stylesheet" href="scrollbar.css"/>
+        <link rel="stylesheet" href="bottom.css"/>
+        <link rel="stylesheet" href="wppbtn.css">
+        <link rel="shortcut icon" href="images/icon/favicon.ico" />
+    </head>
+    <body>
+        <section class="page">
+            <div class="nav">
+                <div class="navSup">
+                    <p class="welcome">
+                        Bem-vindo, <span id="nome"></span>
+                    </p>
+                    <div class="voltar">
+                        <a class="a" href="index.html">Voltar ao Site
+                            <img src="images/seta.png" alt="voltar" />
+                        </a>
+                        <a class="a sair" href="login.html">Logout
+                            <img src="images/seta.png" style="opacity: 0;" alt="voltar" />
+                        </a>
+                    </div>
+                </div>
+                <p class="subtitle">
+                    Acompanhe o desempenho do seus mútuos com o máximo de transparência
+                </p>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <div class="top center">
+                        <p class="carteira">Disponível em <span id="data"></span>:</p>
+                        <span class="sp">R$ <span id="valorfinal"></span></span>
+                        <div class="container-a">
+                            <a class="news" href="documents/Balancete_022022_a_022022.pdf" download>Transparência</a>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bottext">
+                            <p>Valor aplicado</p>
+                            <p><b>R$ <span id="valorinicial"></span></b></p>
+                        </div>
+                        <hr>
+                        <div class="bottext">
+                            <p>Valor disponível</p>
+                            <p><b>R$ 0,00</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="topGraph">
+                        <div class="rendimento">
+                            <p>Rendimento (até 04/2022)</p>
+                            <p class="green">Indisponível</p>
+                        </div>
+                        <hr class="hr">
+                        <div class="rentabilidade">
+                            <p>Rentabilidade</p>
+                            <p class="green" id="rentabilidade"></p>
+                        </div>
+                        <!--hr class="hr">
+                        <div class="relativa">
+                            <p>Rent. Relativa - SELIC</p>
+                            <p class="green">9,7%</p>
+                        </div-->
+                    </div>
+                    <div class="graph">
+                        <div id="chartContainer"></div>
+                        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="wppbtn">
+                    <a href="https://wa.me/5516997688773" target="blank"><img alt="WhatsApp" src="images/whats.png" width="50px" /></a>
+                </div>
+        <nav class="bottombar collapse"> 
+            <div class="flexbot">
+                <div class="p1">
+                    <a class="bottombarlogo" href="index.html"><img src="images/logo todo em laranja 2.png" width="150px" /></a>
+                    <ul class="bottommenu">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a id="fade" href="investidor.html">Investidor</a></li>
+                      <li><a id="fade" href="motorista.html">Motorista</a></li>
+                      <li><a id="fade" href="contato.html">Contato</a></li>
+                      <li><a id="fade" href="blog.html">Blog</a></li>
+                    </ul>
+                  </div>
+                  <div class="p2">
+                    <ul class="bottommenu">
+                      <li>Telefone: <a href="tel:+5516997688773">(16) 99768-8773</a></li>
+                      <li>E-mail: <a href="mailto:contato@locar.me">contato@locar.me</a></li>
+                    </ul>
+                  </div>
+                  <div class="p3">
+                    <a href="https://www.linkedin.com/company/uspempreende/?originalSubdomain=br"><img src="images/neu.png" width="55px"/></a>
+                  </div>
+            </div>
+            <div class="direitos">
+                <p>LoCar ® | Todos os direitos reservados</p>
+            </div>
+          </nav>
+    </body>
+    <script type="text/javascript" src="conta.js"></script>
+</html>
